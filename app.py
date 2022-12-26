@@ -18,7 +18,7 @@ from keras.models import load_model
 # json_file.close()
 # model = model_from_json(loaded_model_json)
 # # load weights into a new model
-# model.load_weights("model.h5")  
+# model.load_weights("model.h5")  py
 model = load_model('tbc_model.h5')
 img_height = 180
 img_width = 180
